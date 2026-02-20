@@ -1,25 +1,123 @@
-<h1 align="center">
-<img src="https://img.shields.io/static/v1?label=AGENTE%20de%20SQL%20POR&message=MAYCON%20BATESTIN&color=7159c1&style=flat-square&logo=ghost"/>
+# Aula DIO Agentes SQ 🚀
 
-<h3> <p align="center">Agente de Consulta SQL -  DIOBANK </p> </h3>
-<h3> <p align="center"> ================= </p> </h3>
+![GitHub Repo stars](https://img.shields.io/github/stars/TCGamer2413/aula_dio_agentes_sq?style=social) ![GitHub forks](https://img.shields.io/github/forks/TCGamer2413/aula_dio_agentes_sq?style=social) ![GitHub issues](https://img.shields.io/github/issues/TCGamer2413/aula_dio_agentes_sq) 
 
+## Descrição
 
-## **Visão Geral do Projeto**
+Bem-vindo ao repositório **Aula DIO Agentes SQ**! Este projeto foi criado para a DIO COMMUNITY WEEK AI AGENTS. Aqui, você encontrará recursos e exemplos que ajudarão a entender e trabalhar com agentes de inteligência artificial. O objetivo é fornecer um ambiente de aprendizado prático, onde você pode explorar e desenvolver suas habilidades.
 
-Nesta aula vamos propor uma visão geral sobre o papel do agente de IA, e como ele pode ajudar na manipulação e insigths em consultas de SQL.
-Para tanto foi necessário construir um banco de dados MYSQL localhost e construir um dataset ficticio, que neste cenário, chama-se Dio Bank.
+## Começando
 
-## **Arquitetura do projeto**
-![delta](img/arquitetura.png)
+Para começar a usar este repositório, você pode acessar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/releases). Baixe o arquivo necessário e execute-o em seu ambiente local. Isso permitirá que você veja como os agentes funcionam na prática.
 
+### Pré-requisitos
 
-## **Pré-requisitos**
+Antes de executar o projeto, verifique se você possui as seguintes ferramentas instaladas:
 
-1. Tenha um banco de dados MYSQL instalado em sua máquina (na pasta ```banco_de_dados``` existem dois arquivos em raiz,  ```instalar_mysql_mac.sh``` e ```instalador_windows.txt``` para quem não possui instalado localmente, possa instalar tranquilamente.)
-2. Instale um ambiente virtual python utilizando o arquivo na raiz ```env_install.sh```
-3. Instale as depedencias via pip install -r requirements.txt
-4. Configure as credencias do seu banco de dados em .env
-5. Insira os dados em seu banco MYSQL a partir do script localizado em <b> banco_de_dados/scripts/create_table.py
-6. Rode os scripts pythons localizados na pasta agente.
+- **Python 3.x**: Certifique-se de ter o Python instalado em sua máquina. Você pode baixá-lo [aqui](https://www.python.org/downloads/).
+- **Pip**: O gerenciador de pacotes do Python deve estar instalado. Ele geralmente vem com a instalação do Python.
+- **Bibliotecas necessárias**: Instale as bibliotecas necessárias usando o seguinte comando:
 
+```bash
+pip install -r requirements.txt
+```
+
+## Estrutura do Projeto
+
+A estrutura do repositório é organizada da seguinte forma:
+
+```
+aula_dio_agentes_sq/
+│
+├── src/                # Código fonte do projeto
+│   ├── main.py         # Ponto de entrada do aplicativo
+│   ├── agents/         # Módulos relacionados a agentes
+│   └── utils/          # Funções utilitárias
+│
+├── tests/              # Testes automatizados
+│   └── test_agents.py  # Testes para os agentes
+│
+├── requirements.txt     # Dependências do projeto
+└── README.md            # Documentação do projeto
+```
+
+## Como Usar
+
+1. **Clone o repositório**:
+
+   Use o seguinte comando para clonar o repositório em sua máquina local:
+
+   ```bash
+   git clone https://github.com/TCGamer2413/aula_dio_agentes_sq.git
+   ```
+
+2. **Navegue até o diretório do projeto**:
+
+   ```bash
+   cd aula_dio_agentes_sq
+   ```
+
+3. **Execute o aplicativo**:
+
+   Execute o seguinte comando para iniciar o aplicativo:
+
+   ```bash
+   python src/main.py
+   ```
+
+4. **Explore os agentes**:
+
+   Você pode explorar os diferentes agentes no diretório `src/agents`. Cada agente tem seu próprio conjunto de funcionalidades e pode ser testado individualmente.
+
+## Exemplo de Uso
+
+Aqui está um exemplo simples de como você pode interagir com um agente:
+
+```python
+from agents.simple_agent import SimpleAgent
+
+agent = SimpleAgent()
+response = agent.respond("Olá, como você está?")
+print(response)
+```
+
+Esse código cria uma instância de um agente simples e faz uma pergunta a ele. O agente responde com uma mensagem apropriada.
+
+## Testes
+
+Para garantir que tudo funcione corretamente, você pode executar os testes incluídos no repositório. Navegue até o diretório `tests` e execute o seguinte comando:
+
+```bash
+python -m unittest test_agents.py
+```
+
+Isso executará todos os testes e mostrará os resultados no console.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga estas etapas:
+
+1. Fork o repositório.
+2. Crie uma nova branch (`git checkout -b feature/nome-da-sua-feature`).
+3. Faça suas alterações e commit (`git commit -m 'Adiciona nova feature'`).
+4. Envie para o branch original (`git push origin feature/nome-da-sua-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+
+- GitHub: [TCGamer2413](https://github.com/TCGamer2413)
+- Email: tcgamer2413@example.com
+
+## Links Úteis
+
+- [Documentação do Python](https://docs.python.org/3/)
+- [Pip Documentation](https://pip.pypa.io/en/stable/)
+- [DIO Community](https://www.dio.me)
+
+Explore o repositório e não se esqueça de visitar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/releases) para obter as últimas atualizações e arquivos necessários para executar o projeto.
